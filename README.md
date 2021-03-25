@@ -6,7 +6,7 @@ OBS IMPORTANTE: Na descrição do projeto solicitava que fosse retornado do banc
 # informações sobre o projeto:
 - Iniciar o servidor pelo terminal com o comando 'node index.js'
 - O servidor inicia por padrão na porta 3000, mas pode ser alterado mudando a constant 'porta' em index.js e html/index.js.
-- O HTML do projeto esta na pasta 'html' e o nome do arquivo é 'index.html'.
+- O HTML do projeto esta na pasta 'html' e o nome do arquivo é 'index.html', é um arquivo de HTML simples que pode ser aberto direto no navagador.
 
 # Tecnologias utilizadas:
 - HTML, CSS e javascript
