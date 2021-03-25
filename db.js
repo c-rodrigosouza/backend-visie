@@ -1,5 +1,9 @@
-﻿async function connect() {
-  // Dados do banco.
+/* OBS IMPORTANTE: Na descrição do projeto solicitava que fosse retornado do banco de dados
+as colunas 'nome' e 'data de admissão' da tabela pessoas, porém não existia a coluna 'data de admissão'
+na tabela, então foram utilizadas as outras colunas que haviam no banco. */
+
+async function connect() {
+  // Dados do banco (Geralmente não enviado para o Github, mas deixei para ser visto no teste).
   const user = 'visie_user'
   const pass = 'visie_pass'
   const url = 'db4free.net'
