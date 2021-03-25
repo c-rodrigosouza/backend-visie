@@ -1,0 +1,85 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  font-family: Nunito;
+}
+
+@media only screen and (max-width: 768px){
+  body {
+    align-items: flex-start;
+  }
+}
+
+.tabela-de-pessoas {
+  width: 500px;
+  font-size: 15px;
+}
+
+.titulo-tabela {
+  background-color: #555 !important;
+  color: white;
+}
+
+.tabela-de-pessoas th, .tabela-de-pessoas td {
+  padding: 0 5px;
+}
+
+
+.tabela-de-pessoas tr:nth-child(even) {
+  background-color: #aaa;
+}
+
+.tabela-de-pessoas tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.delete-button {
+  background-color: rgb(255,100,100);
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: rgb(200,100,100);
+}
+
+#cadastro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#cadastro h1 {
+  font-size: 30px;
+}
+
+#cadastro input[type="text"]{
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  text-indent: 5px;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid #ccc;
+}
+
+#cadastro input[type="button"]{
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.carregando {
+  cursor: progress !important;
+}
