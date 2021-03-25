@@ -1,7 +1,7 @@
 # backend-visie
 Backend criado para o teste Visie.
 
-OBS IMPORTANTE: Na descrição do projeto solicitava que fosse retornando do banco de dados as colunas 'nome' e 'data de admissão' da tabela pessoas, porém não existia a coluna 'data de admissão' na tabela, então foram utilizadas as outras colunas que haviam no banco.
+OBS IMPORTANTE: Na descrição do projeto solicitava que fosse retornado do banco de dados as colunas 'nome' e 'data de admissão' da tabela pessoas, porém não existia a coluna 'data de admissão' na tabela, então foram utilizadas as outras colunas que haviam no banco.
 
 # informações sobre o projeto:
 - Iniciar o servidor pelo terminal com o comando 'node index.js'
